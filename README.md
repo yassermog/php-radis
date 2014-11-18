@@ -1,6 +1,7 @@
 php-radis To connect to AWS Amazon Elasticache Redis  
-By : Mohammed Yassse Moghrabiah  
 محمد ياسر مغربيه
+
+By : Mohammed Yassse Moghrabiah  
 =========
 
 in the AWS PHP sdk they talk about the command line client of radis 
