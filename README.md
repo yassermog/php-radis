@@ -37,6 +37,9 @@ extension = redis.so
 
 Then You are ready to go : 
 
+<?php
+
+// by Mohammed Yasser Moghrabiah
  class MyRadis
  {
   public $redisObj;
