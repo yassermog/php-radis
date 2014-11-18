@@ -9,10 +9,10 @@ http://docs.aws.amazon.com/AmazonElastiCache/latest/UserGuide/GettingStarted.Con
 
 Connect AWS ElasticCash Radis with Php
 
-    Configuring phpredis
-    Using phpredis
-    Frequently used PhpRedis Methods
-    Example PHP Program using Redis
+    1 Configuring phpredis
+    2 Using phpredis
+    3 Frequently used PhpRedis Methods
+    4 Example use MyRadis Program 
 
 Configuring phpredis
 ------------------------------------
@@ -20,23 +20,24 @@ First, download "phpredis" for github repository
 https://github.com/nicolasff/phpredis
 
 Once you’ve downloaded it, extract the files to phpredis directory. On ubuntu, install this extension as shown below.
-
+```
 cd phpredis
 sudo phpize
 sudo ./configure
 sudo make
 sudo make install
-
+```
 Now we have the phpredis extension installed. 
 Copy and paste the content of “modules” folder to the php extension directory or use the following command in terminal.
-
+```
 sudo cp modules/redis.so {php-config–extension-dir}
-
+```
 Add the following lines in php.ini for your php installation.
 extension = redis.so
 
 Then You are ready to go : 
 
+```php
 <?php
 
 // by Mohammed Yasser Moghrabiah
@@ -56,6 +57,6 @@ Then You are ready to go :
      $this->openRedisConnection($this->host, $this->port);
   }
  }
-
+```
 referances 
 http://www.thegeekstuff.com/2014/02/phpredis/
