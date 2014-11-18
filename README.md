@@ -1,5 +1,5 @@
 php-radis To connect to AWS Amazon Elasticache Redis  
-By : Mohammed Yassse Moghrabiah  
+By : Mohammed Yassse Moghrabiah   محمد ياسر مغربيه
 =========
 
 in the AWS PHP sdk they talk about the command line client of radis 
@@ -35,8 +35,8 @@ extension = redis.so
 
 Then You are ready to go : 
 
-class MyRadis
-{
+ class MyRadis
+ {
   public $redisObj;
   public $host = 'ssss.zkdojs.0001.usw2.cache.amazonaws.com';
   public $port = 6379;
@@ -50,7 +50,7 @@ class MyRadis
      
      $this->openRedisConnection($this->host, $this->port);
   }
-}
+ }
 
 referances 
 http://www.thegeekstuff.com/2014/02/phpredis/
